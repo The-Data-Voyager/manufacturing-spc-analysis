@@ -173,7 +173,3 @@ SELECT
 FROM dimension_alerts
 ORDER BY item_no;
 
-
-
-
-
