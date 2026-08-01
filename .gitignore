@@ -2,3 +2,6 @@
 __pycache__/
 .ipynb_checkpoints/
 *.pyc
+
+# Raw dataset is kept locally and not redistributed
+data/manufacturing_parts.csv
