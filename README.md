@@ -52,6 +52,43 @@ The source dataset contains:
 - 500 manufacturing records
 - 20 operators
 
+
+## Visualizations
+
+### SPC Method Comparison
+
+The previous-only monitoring method produced a substantially higher observed alert rate than the inclusive method.
+
+![SPC Method Alert Rates](images/spc_method_alert_rates.png)
+
+The inclusive method flagged 31.43% of analyzed measurements, compared with 64.00% for the previous-only method.
+
+The difference illustrates how including the current observation in its own reference statistics can materially change SPC (Statistical Process Control) classifications.
+
+---
+
+### Operator Alert Rates
+
+The previous-only SPC method was used to compare observed alert rates across operators.
+
+![Operator Alert Rates](images/operator_alert_rates.png)
+
+Alert rates varied substantially between operators. These values should be interpreted together with the number of measurements available for each operator and should not be treated as direct measures of individual operator performance.
+
+---
+
+### Alerts by Product Dimension
+
+Length and width produced similar numbers of alerts, while height produced fewer.
+
+![Dimension Alert Counts](images/dimension_alert_counts.png)
+
+Using the previous-only method:
+
+- Length: 122 alerts
+- Width: 120 alerts
+- Height: 99 alerts
+
 ---
 
 ## Project Architecture
